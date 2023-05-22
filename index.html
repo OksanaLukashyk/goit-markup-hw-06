@@ -484,6 +484,32 @@
             </li>
           </ul>
         </div>
+        <form class="subscribe-footer-form" name="subscribe-footer-form">
+          <label class="subscribe-footer-label" for="subscription-user-email">Subscribe</label>
+          <div class="subscribe-footer-wrapper">
+            <!-- <fieldset class="subscribe-footer-fieldset"> -->
+            <input
+              class="subscription-email-input"
+              type="email"
+              name="subscription-user-email"
+              id="subscription-user-email"
+              placeholder="E-mail"
+              required
+            />
+            <button class="subscribe-footer-btn" type="subscribe">
+              Subscribe
+              <svg
+                class="subscribe-footer-btn-icon"
+                width="24"
+                height="24"
+                aria-label="subscribe button icon"
+              >
+                <use href="./images/icons.svg#icon-subscribe-footer-btn"></use>
+              </svg>
+            </button>
+            <!-- </fieldset> -->
+          </div>
+        </form>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -493,6 +519,33 @@
             <use href="./images/icons.svg#icon-modal-close"></use>
           </svg>
         </button>
+
+        <form class="contact-form" name="contact-form">
+          <fieldset class="contact-form-fieldset">
+            <legend class="contact-form-legend">
+              Leave your contacts and we will call you back
+            </legend>
+            <label for="contact-form-name" class="contact-form-input-label">Name</label>
+            <input type="text" class="contact-form-input" id="contact-form-name" />
+            <label for="contact-form-phone" class="contact-form-input-label">Phone</label>
+            <input type="tel" class="contact-form-input" id="contact-form-phone" />
+            <label for="contact-form-email" class="contact-form-input-label">Email</label>
+            <input type="email" class="contact-form-input" id="contact-form-email" />
+            <label for="contact-form-comment" class="contact-form-input-label">Comment</label>
+            <textarea
+              class="contact-form-comment"
+              name=""
+              id="contact-form-comment"
+              placeholder="Text input"
+            ></textarea>
+
+            <label for="privacy-policy-checkbox" class="privacy-policy-checkbox-label"
+              ><input type="checkbox" name="" id="privacy-policy-checkbox" />I accept the terms and
+              conditions of the <a class="privacy-policy-link" href="">Privacy Policy</a>
+            </label>
+            <button type="submit" class="button primary">Send</button>
+          </fieldset>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
