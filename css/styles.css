@@ -921,6 +921,9 @@ letter-spacing: 0.04em;*/
   border-radius: 2px;
   cursor: pointer;
   margin-right: 8px;
+
+  transition: outline var(--transition-duration-function, opacity var)
+    --transition-duration-function;
 }
 
 .contact-form-checkbox:focus + .contact-form-custom-checkbox {
