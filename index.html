@@ -589,7 +589,8 @@
               id="user-message"
             ></textarea>
 
-            <div class="user-privacy-wrapper">
+            <!-- <div class="user-privacy-wrapper"> -->
+            <label class="privacy-policy-checkbox-label" for="user-privacy">
               <input
                 class="contact-form-checkbox"
                 type="checkbox"
@@ -597,6 +598,7 @@
                 id="user-privacy"
                 required
               />
+
               <svg
                 class="contact-form-custom-checkbox"
                 width="16"
@@ -608,11 +610,10 @@
                   href="./images/icons.svg#icon-checkbox"
                 ></use>
               </svg>
-              <label class="privacy-policy-checkbox-label" for="user-privacy">
-                I accept the terms and conditions of the&nbsp;
-                <a class="privacy-policy-link" href="">Privacy Policy</a></label
-              >
-            </div>
+              I accept the terms and conditions of the&nbsp;
+              <a class="privacy-policy-link" href="">Privacy Policy</a></label
+            >
+            <!-- </div> -->
 
             <button type="submit" class="button primary">Send</button>
           </fieldset>
