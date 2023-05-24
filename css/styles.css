@@ -829,11 +829,11 @@ OR
 }
 
 .contact-form-input:focus {
-  border-color: var(--accent-color);
+  border-color: var(--light-accent-color);
 }
 
 .contact-form-input:focus + .contact-form-input-icon {
-  fill: var(--accent-color);
+  fill: var(--light-accent-color);
 }
 
 .contact-form-comment-wrapper {
@@ -860,7 +860,7 @@ OR
 }
 
 .contact-form-comment:focus {
-  border-color: var(--accent-color);
+  border-color: var(--light-accent-color);
 }
 
 .contact-form-comment::placeholder {
@@ -885,9 +885,6 @@ OR
 }
 
 .privacy-policy-checkbox-label {
-  /* margin-left: 8px; */
-  display: flex;
-  align-items: center;
   margin-bottom: 24px;
 
   font-size: 12px;
@@ -909,9 +906,9 @@ OR
   cursor: pointer;
 
   fill: transparent;
-  transition: fill var(--transition-duration-function),
+  /* transition: fill var(--transition-duration-function),
     background-color var(--transition-duration-function), border var(--transition-duration-function),
-    border-color var(--transition-duration-function);
+    border-color var(--transition-duration-function); */
 }
 
 /* .contact-form-custom-checkbox {
