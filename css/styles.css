@@ -901,7 +901,7 @@ OR
   height: 16px;
   margin-right: 8px;
 
-  border: 1px solid var(--primary-dark-color); /*layout - lighter color rgba(46, 47, 66, 0.4*/
+  border: 1px solid rgba(46, 47, 66, 0.4); /*autocheck var(--primary-dark-color)*/
   border-radius: 2px;
   cursor: pointer;
 
